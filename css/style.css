@@ -1,21 +1,21 @@
 @font-face {
   font-family: BrushScriptMD;
-  src: url(/fonts/brush-script-mt/brush-script-mt-kursiv.ttf);
+  src: url(../assets/fonts/brush-script-mt/brush-script-mt-kursiv.ttf);
 }
 
 @font-face {
   font-family: monserrat-black;
-  src: url(/fonts/monserrat/Montserrat-Black.ttf);
+  src: url(../assets/fonts/monserrat/Montserrat-Black.ttf);
 }
 
 @font-face {
   font-family: monserrat-regular;
-  src: url(/fonts/monserrat/Montserrat-Regular.ttf);
+  src: url(../assets/fonts/monserrat/Montserrat-Regular.ttf);
 }
 
 @font-face {
   font-family: monserrat-medium;
-  src: url(/fonts/monserrat/Montserrat-Medium.ttf);
+  src: url(../assets/fonts/monserrat/Montserrat-Medium.ttf);
 }
 
 .monserrat-regular {
@@ -36,7 +36,7 @@
 
 .active-page-1 {
   background-color: inherit !important;
-  border-color: #FFF  #FFF #fff !important;
+  border-color: #fff  #fff #fff !important;
   font-weight: bold;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .non-active-page {
-  background-color: #343a40 !important;
+  background-color: inherit !important;
   border-color:  #6c757d !important;
 }
 
@@ -56,7 +56,7 @@
 }
 
 html, body {
-  background-color: #343a40 !important;
+  background-color: inherit !important;
   height: 100% !important;
 }
 
@@ -64,26 +64,23 @@ html, body {
   font-weight: bold;
 }
 
-.btn-discord {
-  color: #fff;
-  background-color: #6a097d;
-  border-color: #343a40;
+.rel-pos {
+  position: relative;
 }
 
-.btn-github {
-  color: #000;
-  background-image: linear-gradient(to right, #FFF 0%, #808080 100%);
-  border-color: #343a40;
+.coffe-is-good {
+  margin: 30px;
+  margin-left: 0;
+  width: 360px;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 10px solid #EE872A;
+  font-size: 100%;
 }
 
-.btn-reddit {
-  color: #000;  
-  background-image: linear-gradient(to right, #FF5700 0%, #FF4500 100%);
-  border-color: #343a40;
-}
-
-.btn-instagram {
-  color: #000;
-  background-image: linear-gradient(to right, #FEDA77 10%, #F58529 25%, #DD2A7B 50%, #8134AF 75%, #515BD4 100%);
-  border-color: #343a40;
+.that-is-true {
+  letter-spacing: 12px;
+  font-size: 15px;
+  left: 25px;
+  top: 25px;
 }
