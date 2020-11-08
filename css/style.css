@@ -1,0 +1,89 @@
+@font-face {
+  font-family: BrushScriptMD;
+  src: url(/fonts/brush-script-mt/brush-script-mt-kursiv.ttf);
+}
+
+@font-face {
+  font-family: monserrat-black;
+  src: url(/fonts/monserrat/Montserrat-Black.ttf);
+}
+
+@font-face {
+  font-family: monserrat-regular;
+  src: url(/fonts/monserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: monserrat-medium;
+  src: url(/fonts/monserrat/Montserrat-Medium.ttf);
+}
+
+.monserrat-regular {
+  font-family: monserrat-regular;
+}
+
+.monserrat-medium {
+  font-family: monserrat-medium;
+}
+
+.monserrat-black {
+  font-family: monserrat-black;
+}
+
+.brush-script-md {
+  font-family: BrushScriptMD;
+}
+
+.active-page-1 {
+  background-color: inherit !important;
+  border-color: #FFF  #FFF #fff !important;
+  font-weight: bold;
+}
+
+.active-page-2 {
+  background-color: #343a40 !important;
+  border-color: #FFF  #FFF #fff !important;
+}
+
+.non-active-page {
+  background-color: #343a40 !important;
+  border-color:  #6c757d !important;
+}
+
+.left-right-margin-1 {
+  margin-left: 0.25rem !important;
+  margin-right: o.25rem !important;
+}
+
+html, body {
+  background-color: #343a40 !important;
+  height: 100% !important;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.btn-discord {
+  color: #fff;
+  background-color: #6a097d;
+  border-color: #343a40;
+}
+
+.btn-github {
+  color: #000;
+  background-image: linear-gradient(to right, #FFF 0%, #808080 100%);
+  border-color: #343a40;
+}
+
+.btn-reddit {
+  color: #000;  
+  background-image: linear-gradient(to right, #FF5700 0%, #FF4500 100%);
+  border-color: #343a40;
+}
+
+.btn-instagram {
+  color: #000;
+  background-image: linear-gradient(to right, #FEDA77 10%, #F58529 25%, #DD2A7B 50%, #8134AF 75%, #515BD4 100%);
+  border-color: #343a40;
+}
