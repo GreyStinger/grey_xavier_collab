@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+	<div class="header">
+		<h1>Terciptanya Rasa Dari Biji Kopi Pilihan</h1>\
+		<p>A <b>responsive</b> website created by HELMI SAPUTRA.</p>
+	</div>
+	
+	<div class="navbar">
+		<a href="#" class="active">Home</a>
+		<a href="file:///C:/Website/website%20update%200.1.htm">Cara Membuat Kopi</a>
+		<a href="file:///C:/Website/My%20Website.htm">Belanja Kopi</a>
+		<a class="right" href="file:///C:/Website/Tentang.htm">Tentang</a>
+	</div>
+	
+	<div class="row">
+		<div class="side">
+			<h2>Tentang Kopi</h2>
+			<h5>Foto Tentang Kopi</h5>
+			<img src="biji-kopi.jpg" alt="Biji Kopi Di dalam Gelas" style="height:250px" />
+			<p>Kopi yang bagus adalah kopi yang memiliki cita rasa tersendiri</p>
+			<h3>Papan Iklan<h3>
+			<p>Website Ini Di Iklankan Oleh:</p>
+			<div class="fakeimg" style="height:60px;">Rucika "sambung menyambung menjadi satu"(Foto Segera...)</div><br>
+			<div class="fakeimg" style="height:60px;">Kodomo "do do do do do do do do ku hanya suka do do"(Foto Segera...)</div><br>
+			<div class="fakeimg" style="height:60px;">Permen Milkita "Beliin anak sembaranga, Kamu sih"(Foto Segera...)</div>
+		</div>
+		<div class="main">
+			<h2>Apa Itu Kopi?</h2>
+			<h5>masih pandemi corona, Sep 9, 2020</h5>
+			<img src="biji-kopi.jpg" alt="Biji Kopi Di dalam Gelas" style="height:250px" />
+			<p>Apa itu dan dari mana kopi</p>
+			<p>Kopi adalah minuman hasil seduhan biji kopi yang telah disangrai dan dihaluskan menjadi bubuk. Kopi merupakan salah satu komoditas di dunia yang dibudidayakan lebih dari 50 negara. Dua spesies pohon kopi yang dikenal secara umum yaitu Kopi Robusta (Coffea canephora) dan Kopi Arabika (Coffea arabica).</p>
+			<br>
+			<h2>Dari mana asal kopi?</h2>
+			<h5>Tanggal masih sama bro!</h5>
+			<div class="fakeimg" style="height:200px;">Secangkir kopi(Foto Segera...)</div>
+			<p>Itulah yang ada di pikiran saya ketika meminum kopi...</p>
+			<p>Pemrosesan kopi sebelum dapat diminum melalui proses panjang yaitu dari pemanenan biji kopi yang telah matang baik dengan cara mesin maupun dengan tangan kemudian dilakukan pemrosesan biji kopi dan pengeringan sebelum menjadi kopi gelondong. Proses selanjutnya yaitu penyangraian dengan tingkat derajat yang bervariasi. Setelah penyangraian, biji kopi digiling atau dihaluskan menjadi bubuk kopi sebelum kopi dapat diminum. Sejarah mencatat bahwa penemuan kopi sebagai minuman berkhasiat dan berenergi pertama kali ditemukan oleh Bangsa Etiopia di benua Afrika sekitar 3000 tahun (1000 SM) yang lalu. Kopi kemudian terus berkembang hingga saat ini menjadi salah satu minuman paling populer di dunia yang dikonsumsi oleh berbagai kalangan masyarakat.[butuh rujukan] Indonesia sendiri telah mampu memproduksi lebih dari 400 ribu ton kopi per tahunnya. Disamping rasa dan aromanya yang menarik, kopi juga dapat menurunkan risiko terkena penyakit kanker, diabetes, batu empedu, dan berbagai penyakit jantung (kardiovaskuler).</p>
+		</div>
+			<div class="footer">
+				<h2>Copyright Claim @helmisaputra713</h2>
+			</div>
+</body>
+</html>

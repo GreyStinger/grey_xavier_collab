@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Your Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		*{
+		box-sizing: border-box;
+		}
+		
+		/* Style the body */
+		body {
+			font-family: Arial, Helvatica, sans-serif; margin: 0;
+		}
+		
+		/* Header/logo Tile */
+		.header {
+			padding: 80px;
+			text-align: center;
+			background: #1abc9c;
+			color: white;
+		}
+		
+		/* Increase the font size of the heading */
+		.header h1 {
+			font-size: 40px;
+		}
+		
+		/* Style the top navigation bar*/
+		.navbar {
+			overflow: hidden;
+			background-color: #333;
+		}
+		
+		/* style the navigation bar link */
+		.navbar a {
+			float: left;
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 20px;
+			text-decoration: none;
+		}
+		
+		/* right-aligned link */
+		.navbar a.right {
+			float: right;
+		}
+		
+		/* change color on hover */
+		.navbar a:hover {
+			backround-color: #ddd;
+			color: black;
+		}
+		
+		/* Column container */
+		.row {
+			display: -ms-flexbox; /* IE10 */
+			display: flex;
+			-ms-flex-wrap: wrap; /* IE10 */
+			flex-wrap: wrap;
+		}
+		
+		/*Create two unequal columns that sits next to each other */
+		/* Sidebar/left column */
+		.side {
+			-ms-flex: 30%; /* IE10 */
+			flex: 30%;
+			background-color: #f1f1f1;
+			padding: 20px;
+		}
+		
+		/* Main Column */
+		.main {
+			-ms-flex: 70%; /* IE10 */
+			flex: 70%;
+			background-color: white;
+			padding: 20px;
+		}
+		
+		/*Fake image*/
+		.fakeimg {
+			background-color: #aaa;
+			widht: 100%;
+			padding: 20px;
+		}
+		
+		/* Footer */
+		.footer {
+			padding: 20px;
+			text-align: center;
+			background: #ddd;
+		}
+		
+		/* Responsive layout - when the screen is less than 700px */
+		@media screen and (max-width: 700px) {
+			.row {
+				flex-direction: column;
+			}
+		}
+		
+		/*Responsive layout - when the screen is less than 400px */
+		@media screen and (max-widht: 400px) {
+			.navbar a {
+				float: none;
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<div class="header">
+		<h1>My Website</h1>
+		<p>A website created by me</p>
+	</div>
+	
+	<div class="navbar">
+		<a href="#">Home</a>
+		<a href="https://www.wikipedia.org/">WikiPedia</a>
+		<a href="#">Link</a>
+		<a href="#" class="right">About</a>
+	</div>
+	
+	<div class="row">
+		<div class="side">
+			<h2>About Me</h2>
+			<h5>Photo of me</h5>
+			<div class="fakeimg" style="height:200px;">image</div>
+			<p>Some text about me</p>
+			<h3>More text</h3>
+			<p>Anything</p>
+			<div class="fakeimg" style="height:60px;">Image</div><br>
+			<div class="fakeimg" style="height:60px;">Image</div><br>
+			<div class="fakeimg" style="height:60px;">Image</div>
+		</div>
+		<div class="main">
+			<h2>Title Heading</h2>
+			<h5>Hmmmmmm...., Sep 12, 2020</h5>
+			<div class="fakeimg" style="height:200px;">image</div>
+			<p>Some text..</p>
+			<p>The most popular are Hex color codes; three byte hexadecimal numbers (meaning they consist of six digits), with each byte, or pair of characters in the Hex code, representing the intensity of red, green and blue in the color respectively.</p>
+			<br>
+			<h2>More Title Heading</h2>
+			<h5>Hmmmmmm...., Sep 17, 2020</h5>
+			<div class="fakeimg" style+"height:200px;">img</div>
+			<p>some text again..</p>
+			<p>Donald John Trump (born June 14, 1946) is the 45th and current president of the United States. Before entering politics, he was a businessman and television personality.
+
+Trump was born and raised in Queens, a borough of New York City. He attended Fordham University for two years and received a bachelor's degree in economics from the Wharton School of the University of Pennsylvania. He became president of his father's real-estate business in 1971, renamed it The Trump Organization, and expanded its operations to building or renovating skyscrapers, hotels, casinos, and golf courses. Trump later started various side ventures, mostly by licensing his name. Trump and his businesses have been involved in more than 4,000 state and federal legal actions, including six bankruptcies. He owned the Miss Universe brand of beauty pageants from 1996 to 2015. He produced and hosted The Apprentice, a reality television series, from 2003 to 2015. As of April 2020, Forbes estimated his net worth to be $2.1 billion.[a]
+
+Trump's political positions have been described as populist, protectionist, and nationalist. He entered the 2016 presidential race as a Republican and was elected in a surprise victory over Democratic nominee Hillary Clinton, although he lost the popular vote.[b] He became the oldest first-term U.S. president,[c] and the first without prior military or government service. His election and policies have sparked numerous protests. Trump has made many false or misleading statements during his campaign and presidency. The statements have been documented by fact-checkers, and the media have widely described the phenomenon as unprecedented in American politics. Many of his comments and actions have been characterized as racially charged or racist.
+
+During his presidency, Trump ordered a travel ban on citizens from several Muslim-majority countries, citing security concerns; after legal challenges, the Supreme Court upheld the policy's third revision. He enacted a tax-cut package for individuals and businesses, rescinding the individual health insurance mandate penalty. He appointed Neil Gorsuch and Brett Kavanaugh to the Supreme Court. In foreign policy, Trump has pursued an America First agenda, withdrawing the U.S. from the Trans-Pacific Partnership trade negotiations, the Paris Agreement on climate change, and the Iran nuclear deal. He imposed import tariffs which triggered a trade war with China, recognized Jerusalem as the capital of Israel, and withdrew U.S. troops from northern Syria. Trump met three times with North Korea's leader Kim Jong-un, but talks on denuclearization broke down in 2019. Trump reacted slowly to the COVID-19 pandemic; he minimized the threat, ignored or contradicted many recommendations from health officials, and promoted false information about unproven treatments and the availability of testing. He is seeking a second term as the Republican nominee in the 2020 presidential election.
+
+A special counsel investigation led by Robert Mueller found that Trump and his campaign welcomed and encouraged Russian interference in the 2016 presidential election under the belief that it would be politically advantageous, but did not find sufficient evidence to press charges of criminal conspiracy or coordination with Russia.[d] Mueller also investigated Trump for obstruction of justice, and his report neither indicted nor exonerated Trump on that offense. After Trump solicited Ukraine to investigate his political rival Joe Biden, the House of Representatives impeached him in December 2019 for abuse of power and obstruction of Congress. The Senate acquitted him of both charges in February 2020.</p>
+			</div>
+		</div>
+	<div class="footer">
+		<h2>Footer</h2>
+	</div>
+</body>
+</html>
