@@ -12,7 +12,7 @@
   .header {
     padding: 80px;
     text-align: center;
-    background: #1abc9c;
+    background: #796650;
     color: white;
   }
   
@@ -72,7 +72,7 @@
     -ms-flex: 30%; /* IE10 */
     flex: 30%;
     background-color: #f1f1f1;
-    padding: 20px;
+    padding: 30px;
   }
   
   /* Main column */
@@ -92,7 +92,7 @@
   
   /* Footer */
   .footer {
-    padding: 20px;
+    padding: 20px 775px;
     text-align: center;
     background: #ddd;
   }
